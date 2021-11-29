@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to right, #2e2c2c 0%, black 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    color: #EEEBDD;
+    max-width: 1500px;
+    margin: auto;
+}
+header{
+    background-image: url("../images/sliced-meat-barbecue-served-with-onion-and-sea-salt.jpg");
+    background-size: cover;
+    background-position: left;
+    height: 500px;
+    border-radius: 20px;
+}
+.principal{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 2px 2px #2e2c2c;
+}
+nav{
+    background: #0000009d;
+    background-blend-mode: lighten;
+    border-radius: 20px 20px 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+}
+nav a{
+    color: #EEEBDD;
+}
+.logo{
+    width: 75px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.menu{
+    overflow: hidden;
+    font-size: 20px;
+    float: right;
+}
+.menu li{
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 24px;
+}
+.menu li:hover{
+    border-bottom: 1px solid#EEEBDD;
+    text-shadow: 2px 2px #000000;
+}
+
