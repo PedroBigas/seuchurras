@@ -92,6 +92,7 @@ nav a{
 .promocoes{
     padding: 20px;
     max-width: 50%;
+    height: 800px;
     background: #630000;
     overflow: hidden;
     margin-bottom: 20px;
@@ -113,6 +114,9 @@ nav a{
     padding: 5px;
     margin-left: 250px;
     }
+.instagram:hover{
+    border: 1px solid white;
+}
 .instagram p{
     line-height: 20px;
 }
