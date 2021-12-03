@@ -97,9 +97,31 @@ nav a{
     margin-bottom: 20px;
     margin-left: 50%;
     border-radius: 20px 0 0 20px;
-    box-shadow: 1px 3px rgba(0, 0, 0, 0.452);
+    box-shadow: -1px 3px rgba(0, 0, 0, 0.452);
+    text-align: center;
 }
-.instagram-media{
-    margin-left: 100px;
+.promo img{
+    width: 400px;
+}
+.instagram{ 
+    position: relative;
+    width:200px; height:50px;
+    background: #f09433; 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px;
+    margin-left: 250px;
+    }
+.instagram p{
+    line-height: 20px;
+}
+.instagram ion-icon{
+    top: 3px;
+    position: relative;
+}
+a{
+    color: #EEEBDD;
+    text-decoration: none;
 }
 /*tendeu, mo, vc ta bem cmg msm? to vida, é q td bem q eu enr
